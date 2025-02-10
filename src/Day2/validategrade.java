@@ -1,21 +1,21 @@
 package Day2;
 
-public class validtegrade {
+public class validategrade {
 
 	public static void main(String[] args) {
 		// program that takes a grade and prints the corresponding message (A, B, C, F).
-		String grade = "F";
+		String grade = "95";
 		switch (grade){
-		case "A":
+		case "90":
 			System.out.println("distinct");
 			break;
-		case "B":
+		case "80":
 			System.out.println("first");
 			break;	
-		case "C":
+		case "70":
 			System.out.println("second");
 			break;	
-		case "F":
+		case "60":
 			System.out.println("fail");
 			break;	
 		}
